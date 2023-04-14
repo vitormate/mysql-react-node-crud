@@ -6,7 +6,7 @@ const app = express()
 const db = createConnection({
     host: "localhost",
     user: "root",
-    password: "teste123",
+    password: "",
     database: "Clinicas_medicas",
 })
 
